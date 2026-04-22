@@ -50,7 +50,8 @@ except ImportError:
 
 # ==================== CONFIGURATION ====================
 
-TOKEN = "8071197561:AAEKEyG6Aib-oFlMAH2V57Pvum_hGQ99uRw"
+import os
+TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 ADMIN_ID = 6044463378
 
 # Bot configuration
